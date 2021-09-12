@@ -89,7 +89,8 @@
                         {required: true, message: '请填写发送卡片描述!', trigger: 'blur'}
                     ],
                     url: [
-                        {required: true, message: '请填写发送卡片跳转链接!', trigger: 'blur'}
+                        {required: true, message: '请填写发送卡片跳转链接!', trigger: 'blur'},
+                        {required: true, type: 'url', message: '链接格式不正确!', trigger: 'blur'}
                     ],
                     user_id: [
                         {required: true, type: 'array', min: 1, message: '请至少选择一个员工', trigger: 'change'},
