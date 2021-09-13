@@ -41,7 +41,6 @@
         .layout-logo{
             width: 100px;
             height: 30px;
-            background: #ebedef;
             border-radius: 3px;
             float: left;
             position: relative;
@@ -91,7 +90,7 @@
             <layout>
                 <header :style="{position: 'fixed', width: '100%'}">
                     <i-menu mode="horizontal" theme="dark" active-name="1">
-                        <div class="layout-logo">123</div>
+                        <div class="layout-logo"><img src="{{ asset('static/skpower/image/logo.png') }}" alt=""></div>
                         <div class="layout-nav">
                             <menu-item name="1">
                                     @if($title != '首页')
