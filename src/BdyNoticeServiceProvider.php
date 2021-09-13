@@ -40,6 +40,7 @@ class BdyNoticeServiceProvider extends ServiceProvider
             __DIR__ . '/Notifications' => base_path('app/Notifications'),//发布消息通知类
             __DIR__ . '/resources/js' => public_path('static/skpower/js'),//发布静态资源
             __DIR__ . '/resources/css' => public_path('static/skpower/css'),//发布静态资源
+            __DIR__ . '/resources/image' => public_path('static/skpower/image'),//发布静态资源
 
         ]);
     }
