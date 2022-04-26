@@ -11,8 +11,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.3",
-        "laravel/framework": "^6.20.26",
-        "overtrue/laravel-wechat": "^5.1"
+        "laravel/framework": ">=6.20.26",
+        "overtrue/laravel-wechat": "^5.x"
     },
     "autoload": {
         "psr-4": {
