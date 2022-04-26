@@ -4,11 +4,11 @@
 
 ```
 PHP >=7.3
-Larvel-framework ^6.20
+Larvel-framework >=5.5
 Vue 2.x
 Iview-UI 4.x (非 template/render 模式)
 依赖
-easywechat^5.1
+easywechat>=5.x
 ```
 
 
