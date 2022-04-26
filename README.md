@@ -3,7 +3,7 @@
 **使用环境**
 
 ```
-PHP ^7.3.4
+PHP >=7.3
 Larvel-framework ^6.20
 Vue 2.x
 Iview-UI 4.x (非 template/render 模式)
